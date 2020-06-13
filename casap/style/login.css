@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Righteous';
+  src: url('../fonts/Righteous/Righteous-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('../fonts/Archivo/Archivo-Regular.ttf');
+}
+
+
+body{
+  background-color: #333;
+}
+
+h2{
+  color: #FF9800;
+ font-family: 'Archivo';
+}
+
+form{
+  padding: 1rem;
+  background-color: #333;
+  border-radius: 20px;
+  border: solid #FF9800 0.13rem;
+  width: 300px;
+}
+
+input{
+  background-color: #333;
+  border-radius: 10px;
+  font-size:1rem;
+  text-align: center;
+  border: solid #FF9800 0.13rem;
+  width: 80%;
+  padding: 3px;
+  color: white;
+}
+
+#submit{
+  border-radius: 0;
+  transition: background-color 0.3s;
+  transition: color 0.8s;
+}
+
+#submit:hover{
+  border-radius: 0;
+  background-color: #FF9800;
+  color: #333;
+}
+
+#registrazione, #registrazione:visited{
+  color: white;
+}
+
+#registrazione:hover{
+  color: #FF9800;
+}
+
+input:focus{
+  outline: none;
+}
+
+footer{
+  color: white;
+  font-size: 10px;
+  font-style: italic;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: #4e4d4d;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer a, footer a:visited{
+  color: white;
+}

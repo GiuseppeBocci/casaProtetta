@@ -1,0 +1,59 @@
+@import "modal.css";
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/Roboto_Mono/RobotoMono-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('../fonts/Archivo/Archivo-Regular.ttf');
+}
+
+
+body{
+  background-color: #333;
+}
+
+h2{
+  color: #FF9800;
+  font-family: 'Archivo';
+  text-align: center;
+}
+
+#scheda{
+  margin: auto;
+  background-color: #FF9800;
+  height: auto;
+  display: block;
+  color: #333;
+  padding: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: fit-content;
+}
+
+.campo{
+  font-size:1rem;
+  font-family: 'RobotoMono';
+  padding: 3px;
+}
+
+#utentivpn{
+  border-radius: 10px;
+  border: solid #333 2px;
+  padding: 1rem;
+  width: fit-content;
+}
+
+.utentivpn, .utentivpn:visited{
+  color: #333;
+}
+
+#logout, #logout:visited{
+  color: #333;
+}
+
+#logout:hover{
+  color: white;
+}

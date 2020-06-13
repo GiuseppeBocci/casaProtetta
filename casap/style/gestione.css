@@ -1,0 +1,77 @@
+@import "home.css";
+@import "modal.css";
+
+#scheda{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;/*#f9f9f9;*/
+  color: #FF9800;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content > p{
+  text-decoration: underline;
+}
+
+.dropdown-content > p > a , .dropdown-content > p > a:visited{
+  color: #FF9800;
+}
+
+table {
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+th{
+  background-color: #FF9800;
+  color: #333;
+}
+
+td{
+  background-color: #dfdfdf;
+  color: black;
+}
+
+td > img{
+  width: 15px;
+}
+
+a > img{
+ width: 15px;
+}
+
+td > a, td > a:visited{
+  color: black;
+  font-weight: bold;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/registrazione.css">
+    <title>registrazione</title>
+  </head>
+  <body>
+    <center>
+      <h2>Accedi e gestisci il tuo hub domestico</h2>
+      <form action="checklogin.php?a=r" method="post">
+        <label for="nome">Nome:</label> <br />
+        <input type="text" name="nome" placeholder="Tuo nome" required>
+        <br />
+        <br />
+        <label for="cognome">Cognome:</label> <br />
+        <input type="text" name="cognome" placeholder="Tuo cognome" required>
+        <br />
+        <br />
+        <label for="email">Email:</label> <br />
+        <input name="email" placeholder="esempio@dominio.com" type="email" required>
+        <br />
+        <br />
+        <label for="password">Password:</label> <br />
+        <input name="password" type="password" placeholder="Password..." required>
+        <br />
+        <br />
+        <label for="motivazione">Spiega perché vuoi registrarti:</label> <br />
+        <input name="motivazione" type="text" placeholder="Motivazione..." required>
+        <br />
+        <br />
+        <input id="submit" type="submit" name="submit" value="Fai richiesta">
+      </form>
+      <br />
+      <div>
+        <a href="login.html" id="registrazione"><span>Torna a login</span></a>
+      </div>
+      <br />
+    </center>
+    <!--footer>
+      <span>Website developed by <b>Giuseppe Bocci</b></span>
+      <br />
+      <span>Email: peppebocci13@gmail.com</span>
+      <br />
+      <span><a href="https://github.com/GiuseppeBocci">Visit my Github</a></span>
+      <br />
+      <span><a href="https://www.linkedin.com/in/giuseppe-bocci-90932a1ab/">Visit my Linkedin</a></span>
+    </footer-->
+  </body>
+</html>
